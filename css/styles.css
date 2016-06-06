@@ -1,0 +1,71 @@
+/* Base Styles -------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: ;
+    margin: 0;
+    font: 1.1em/1.5 'Roboto', sans-serif;
+}
+
+h1 {  
+    font-size: 5.625rem;
+    font-weight: 10;
+		margin-top: 0;
+		font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+		color: rgb(82,85,100);
+    font-size: 3.3125em;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+		text-transform: uppercase;
+}
+
+a {
+	color: rgba(255,255,255, 1);
+}
+
+p {
+	color: rgba(0,0,0,.8)
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.logo {
+	margin-top: 0;
+}
+
+/* Layout Styles -------------------- */
+
+
+.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+}
+
+/* Navigation Styles -------------------- */
+
+.main-header {
+	background-color: #0577FE;
+}
+
+.main-footer {
+	background-color: rgb(82,85,100);
+	text-align: center;
+	padding: 1.5em;
+	color: rgba(255,255,255, 0.95);
+	font-size: 1.5em;
+}
